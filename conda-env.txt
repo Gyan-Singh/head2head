@@ -168,12 +168,12 @@ https://repo.anaconda.com/pkgs/main/linux-64/mkl_fft-1.0.15-py37ha843d7b_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/mkl_random-1.1.0-py37hd6b4f25_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.18.1-py37h4f9e942_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/py-opencv-3.4.2-py37hb342d67_1.conda
-https://anaconda.org/pytorch/pytorch/1.4.0/download/linux-64/pytorch-1.4.0-py3.7_cuda9.2.148_cudnn7.6.3_0.tar.bz2
+https://anaconda.org/pytorch/pytorch/1.5.1/download/linux-64/pytorch-1.5.1-py3.7_cuda9.2.148_cudnn7.6.3_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/scipy-1.4.1-py37h0b6359f_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/tensorflow-estimator-1.13.0-py_0.conda
 https://conda.anaconda.org/conda-forge/noarch/keras-preprocessing-1.1.0-py_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/opencv-3.4.2-py37h6fd60c2_1.conda
-https://anaconda.org/pytorch/torchvision/0.5.0/download/linux-64/torchvision-0.5.0-py37_cu92.tar.bz2
+https://anaconda.org/pytorch/torchvision/0.6.1/download/linux-64/torchvision-0.6.1-py37_cu92.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/tensorflow-base-1.13.1-py37h5ece82f_5.tar.bz2
 https://anaconda.org/conda-forge/libiconv/1.15/download/linux-64/libiconv-1.15-h516909a_1005.tar.bz2
 https://anaconda.org/conda-forge/openh264/1.8.0/download/linux-64/openh264-1.8.0-hdbcaa40_1000.tar.bz2
