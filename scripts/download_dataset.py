@@ -49,7 +49,6 @@ def main():
             dir = 'datasets/head2headDatasetv2'
             dataset_dir = 'datasets/head2headDatasetv2/dataset'
             print('Unzipping file, this might take some time...')
-            unzip_file(dataset_dir + '_all.zip', dir)
     else:
         dir = 'datasets'
         dataset_dir = 'datasets/faceforensicspp'
