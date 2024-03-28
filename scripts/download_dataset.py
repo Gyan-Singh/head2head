@@ -48,20 +48,6 @@ def main():
             unzip_file(save_path, save_dir)
             dir = 'datasets/head2headDatasetv2'
             dataset_dir = 'datasets/head2headDatasetv2/dataset'
-            download_paths_zip_parts = \
-                ['https://www.dropbox.com/s/t2unzm9logbzg1e/dataset.zip?dl=1',
-                 'https://www.dropbox.com/s/qgv61mnkhizmedv/dataset.z01?dl=1']
-            for i, path in enumerate(download_paths_zip_parts):
-                if not os.path.exists(os.path.join(dir, \
-                                      path.split('/')[-1].split('?')[0])):
-                    bar = MyProgressBar('Downloading dataset part %d/%d' % (i+1,
-                                        len(download_paths_zip_parts)))
-                    wget.download(path, dir, bar=bar.get_bar)
-                    print('\n')
-            print('Merging parts into single .zip file...')
-            os.system('zip -F ' + dataset_dir + '.zip \
-                       --out ' + dataset_dir + '_all.zip')
-            print('Deleting parts...')
             for i, path in enumerate(download_paths_zip_parts):
                 file_p  = os.path.join(dir, path.split('/')[-1].split('?')[0])
                 if os.path.exists(file_p):
