@@ -48,10 +48,6 @@ def main():
             unzip_file(save_path, save_dir)
             dir = 'datasets/head2headDatasetv2'
             dataset_dir = 'datasets/head2headDatasetv2/dataset'
-            for i, path in enumerate(download_paths_zip_parts):
-                file_p  = os.path.join(dir, path.split('/')[-1].split('?')[0])
-                if os.path.exists(file_p):
-                    os.remove(file_p)
             print('Unzipping file, this might take some time...')
             unzip_file(dataset_dir + '_all.zip', dir)
     else:
